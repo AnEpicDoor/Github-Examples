@@ -1,6 +1,7 @@
+name: run every 2 minutes
+
 on: [push]
 
-name: run every 2 minutes
 jobs:
   my-job:
     runs-on: ubuntu-latest
