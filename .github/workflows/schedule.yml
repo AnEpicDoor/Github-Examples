@@ -1,7 +1,7 @@
 name: run job every minute
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   hello_world:
