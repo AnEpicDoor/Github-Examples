@@ -1,6 +1,7 @@
 name: "Workflow Commands"
 
 on: ['push']
+
 jobs:
   my-job:
     runs-on: ubuntu-latest
@@ -11,4 +12,4 @@ jobs:
         echo: "msg 1"
         echo: "msg 2"
         echo: "::endgroup::"
-      
+    
